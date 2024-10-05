@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-background-color: hsl(0, 0%, 100%);
+    --primary-text-color: hsl(205, 84%, 22%);
+    --ascent-color: hsl(206, 97%, 61%);
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*background-color: var(--primary-background-color);*/
+    scroll-behavior: smooth;
+}
+
+.text-ascent {
+    @apply text-[var(--ascent-color)];
+}
+
+.text-primary {
+    @apply text-[var(--primary-text-color)];
+}
+
+.bg-primary {
+    @apply bg-[var(--primary-background-color)];
+}
+
+.outlinedText {
+    @apply drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+}
