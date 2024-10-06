@@ -133,12 +133,12 @@ export default function Home() {
           <h1 id="about" className="mb-10 lg:max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Partners
           </h1>
-          <div className="flex flex-wrap justify-between gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-5">
             {Partners.map((partner: PartnerType, index) => (
-              <div key={index} className="flex flex-col items-center sm:w-52 w-36 relative rounded-xl">
+              <div key={index} className="flex flex-col items-center sm:w-52 xs:w-36 w-28 relative rounded-xl">
                 <Image src={partner.imageUrl} alt={partner.name} width={500} height={500} className="rounded-xl"/>
                 <div className="absolute flex w-full h-full bg-blue-400/80 rounded-xl items-center justify-center transition-opacity duration-500 opacity-0 hover:opacity-100">
-                  <h1 className="text-white text-center font-bold">{partner.name}</h1>
+                  <h1 className="text-white text-center font-bold sm:text-lg text-xs">{partner.name}</h1>
                 </div>
               </div>
             ))}

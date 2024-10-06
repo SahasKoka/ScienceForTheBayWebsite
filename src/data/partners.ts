@@ -5,7 +5,7 @@ export interface PartnerType {
 
 export const Partners: PartnerType[] = [
   {
-    name: "Friends of Children with Special Needs (FCSN)",
+    name: "Friends of Children with Special Needs",
     imageUrl: "/fcsn.jpeg",
   },
   {
