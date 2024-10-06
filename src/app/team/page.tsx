@@ -8,12 +8,12 @@ export default function OfficersPage() {
     { /* image in background takes up full width and fades to black downwards */}
     <div className="relative w-full">
       <div className="absolute w-full h-[500px]">
-        <NextImage src="/sftbCover.jpg" alt="cover photo" fill priority className="object-cover object-middle"/>
+        <NextImage src="/sftbCover.jpg" alt="cover photo" fill priority className="object-cover object-middle brightness-75"/>
         <div
           className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40"/>
       </div>
-      <div className="relative mx-auto max-w-screen-xl px-5 py-16 text-primary z-[5] sm:py-16">
-        <section className="mb-52 flex flex-col items-center justify-center sm:flex-row lg:mb-64">
+      <div className="relative mx-auto max-w-screen-xl px-5 py-16 text-primary z-[5] sm:py-32">
+        <section className="mb-52 flex flex-col items-center justify-center sm:flex-row lg:mb-56">
           <div className="flex h-min flex-col">
             <h1 className="text-center text-7xl font-bold sm:text-8xl md:text-8xl lg:text-9xl text-white">Our Team</h1>
           </div>
