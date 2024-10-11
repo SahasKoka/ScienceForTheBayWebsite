@@ -34,20 +34,20 @@ export default function Home() {
   }, {scope: container})
 
   return (
-    <div ref={container} className="w-full flex flex-col gap-16 relative">
+    <div ref={container} className="relative flex w-full flex-col gap-16">
       {/*<div className="absolute inset-0 -z-10 h-screen w-full">*/}
       {/*  <Image src={"/sftbCover.jpg"} alt={"Hero Image"} layout={"fill"} objectFit={"cover"} className="brightness-75"/>*/}
       {/*</div>*/}
 
-      <div className="absolute w-full h-screen">
-        <Image src="/sftbCover.jpg" alt="Hero Image" fill className="object-cover md:object-center object-center brightness-75"/>
+      <div className="absolute h-screen w-full">
+        <Image src="/sftbCover.jpg" alt="Hero Image" fill className="object-cover object-center brightness-75 md:object-center"/>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40"/>
       </div>
-      <section className="mx-10 h-screen flex flex-col">
+      <section className="mx-10 flex h-screen flex-col">
         <div
           className="mx-auto flex h-1/2 max-w-screen-xl items-center justify-center opacity-0 hero_heading_title sm:h-full"
         >
-          <div className="flex w-full flex-col items-center sm:mb-24 sm:mt-0 mt-24">
+          <div className="mt-24 flex w-full flex-col items-center sm:mt-0 sm:mb-24">
             <h1
               className="mb-6 max-w-5xl text-5xl font-semibold leading-none tracking-tight text-ascent sm:text-center sm:text-8xl md:text-9xl lg:text-7xl xl:text-8xl 2xl:text-9xl">
               Science For
@@ -56,7 +56,7 @@ export default function Home() {
               </span>
             </h1>
             <p
-              className="font-mono w-full mb-6 max-w-2xl text-sm font-light text-white sm:text-center sm:text-lg md:text-lg lg:mb-8 lg:text-lg xl:text-xl 2xl:text-2xl">
+              className="mb-6 w-full max-w-2xl font-mono text-sm font-light text-white sm:text-center sm:text-lg md:text-lg lg:mb-8 lg:text-lg xl:text-xl 2xl:text-2xl">
               "Inspiring the next generation of scientists"
             </p>
             {/*<p className="mb-6 max-w-2xl font-light text-gray-400 text-balance md:text-lg lg:mb-8 lg:text-xl">*/}
@@ -94,15 +94,15 @@ export default function Home() {
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
           <div className="flex flex-col gap-5 md:flex-row">
-            <div className="order-2 md:order-1 flex flex-col md:w-1/2 items-center">
-              <Image src="/ourMissionImage.jpg" alt="Classroom of children" width={500} height={500}  className="rounded-xl shadow-lg shadow-stone-700 hidden lg:block"/>
+            <div className="order-2 flex flex-col items-center md:order-1 md:w-1/2">
+              <Image src="/ourMissionImage.jpg" alt="Classroom of children" width={500} height={500}  className="hidden rounded-xl shadow-lg shadow-stone-700 lg:block"/>
               <Image src="/ourMissionImage.jpg" alt="Classroom of children" width={300} height={300}  className="rounded-xl shadow-lg shadow-stone-700 lg:hidden"/>
             </div>
-            <div className="order-1 md:order-2 flex flex-col md:w-1/2 justify-center">
-              <h1 className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            <div className="order-1 flex flex-col justify-center md:order-2 md:w-1/2">
+              <h1 className="mb-5 scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl lg:max-w-2xl lg:text-center xl:text-5xl">
                 Our Mission
               </h1>
-              <p className="mb-6 font-light leading-relaxed lg:text-center text-balance md:text-lg lg:mb-8 lg:text-xl">
+              <p className="mb-6 font-light leading-relaxed text-balance md:text-lg lg:mb-8 lg:text-center lg:text-xl">
                 We are 501(c)(3) non-profit dedicated to spreading STEM education to children with developmental disabilities.
               </p>
             </div>
@@ -112,17 +112,17 @@ export default function Home() {
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
           <div className="flex flex-col gap-5 md:flex-row">
-            <div className="order-1 md:order-2 flex flex-col md:w-1/2 justify-center">
-              <h1 className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+            <div className="order-1 flex flex-col justify-center md:order-2 md:w-1/2">
+              <h1 className="mb-5 scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl lg:max-w-2xl lg:text-center xl:text-5xl">
                 Our Visison
               </h1>
-              <p className="mb-6 font-light leading-relaxed lg:text-center text-balance md:text-lg lg:mb-8 lg:text-xl">
+              <p className="mb-6 font-light leading-relaxed text-balance md:text-lg lg:mb-8 lg:text-center lg:text-xl">
                Our vision is to create a community where science education is accessible, engaging, and
                 inclusive, inspiring the next generation of scientists, engineers, and innovators.
               </p>
             </div>
-            <div className="order-1 md:order-2 flex flex-col md:w-1/2 items-center">
-              <Image src="/ourVisionImage.jpg" alt="Classroom of children" width={500} height={500}  className="rounded-xl shadow-lg shadow-stone-700 hidden lg:block"/>
+            <div className="order-1 flex flex-col items-center md:order-2 md:w-1/2">
+              <Image src="/ourVisionImage.jpg" alt="Classroom of children" width={500} height={500}  className="hidden rounded-xl shadow-lg shadow-stone-700 lg:block"/>
               <Image src="/ourVisionImage.jpg" alt="Classroom of children" width={300} height={300}  className="rounded-xl shadow-lg shadow-stone-700 lg:hidden"/>
             </div>
           </div>
@@ -130,15 +130,15 @@ export default function Home() {
       </section>
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
-          <h1 className="mb-10 lg:max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+          <h1 className="mb-10 scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl lg:max-w-2xl xl:text-5xl">
             Partners
           </h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-5">
+          <div className="grid grid-cols-2 place-items-center gap-5 md:grid-cols-3 lg:grid-cols-4">
             {Partners.map((partner: PartnerType, index) => (
-              <div key={index} className="flex flex-col items-center sm:w-52 xs:w-36 w-28 relative rounded-xl">
+              <div key={index} className="relative flex w-28 flex-col items-center rounded-xl xs:w-36 sm:w-52">
                 <Image src={partner.imageUrl} alt={partner.name} width={500} height={500} className="rounded-xl"/>
-                <div className="absolute flex w-full h-full bg-blue-400/80 rounded-xl items-center justify-center transition-opacity duration-500 opacity-0 hover:opacity-100">
-                  <h1 className="text-white text-center font-bold sm:text-lg text-xs">{partner.name}</h1>
+                <div className="absolute flex h-full w-full items-center justify-center rounded-xl bg-blue-400/80 opacity-0 transition-opacity duration-500 hover:opacity-100">
+                  <h1 className="text-center text-xs font-bold text-white sm:text-lg">{partner.name}</h1>
                 </div>
               </div>
             ))}

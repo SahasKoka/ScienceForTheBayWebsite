@@ -7,9 +7,9 @@ export function Footer() {
   const year = date.getFullYear()
 
   return <div className="mx-10">
-    <div className="flex md:h-64 h-[580px] max-w-screen-xl mx-auto lg:gap-52 gap-24 flex-col md:flex-row mt-40 mb-14 text-primary">
+    <div className="mx-auto mt-40 mb-14 flex max-w-screen-xl flex-col gap-24 h-[580px] text-primary md:h-64 md:flex-row lg:gap-52">
       <div className="flex flex-col gap-6">
-        <a className="flex items-center text-ascent font-extrabold tracking-wide uppercase" href="/">
+        <a className="flex items-center font-extrabold uppercase tracking-wide text-ascent" href="/">
           {/*<Image src="/Logo.png" alt="Logo" width={50} height={50} />*/}
           Science For <span className="text-[#094067]">&nbsp;The Bay</span>
         </a>

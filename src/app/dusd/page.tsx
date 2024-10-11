@@ -1,6 +1,4 @@
 import NextImage from 'next/image';
-import {Officers, OfficerType} from '@/data/officers';
-import Image from "next/image";
 
 export default function OfficersPage() {
 
@@ -9,13 +7,13 @@ export default function OfficersPage() {
     { /* image in background takes up full width and fades to black downwards */}
     <div className="relative w-full">
       <div className="absolute w-full h-[500px]">
-        <NextImage src="/DUSD1.jpg" alt="cover photo" fill priority className="object-cover object-middle brightness-75"/>
+        <NextImage src="/DUSD1.jpg" alt="cover photo" fill priority className="object-cover brightness-75 object-middle"/>
         <div
           className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40"/>
       </div>
       <div className="relative mx-auto max-w-screen-xl text-primary z-[5]">
-        <section className="h-[500px] mb-12 flex flex-col items-center justify-center sm:mb-24 mx-10">
-          <h1 className="pb-20 sm:text-center text-7xl font-bold sm:text-8xl md:text-8xl lg:text-9xl text-white">DUSD Program</h1>
+        <section className="mx-10 mb-12 flex flex-col items-center justify-center h-[500px] sm:mb-24">
+          <h1 className="pb-20 text-7xl font-bold text-white sm:text-center sm:text-8xl md:text-8xl lg:text-9xl">DUSD Program</h1>
         </section>
 
         <section className="mx-10">

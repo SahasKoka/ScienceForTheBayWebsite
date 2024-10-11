@@ -20,13 +20,13 @@ export function NavBar() {
     setMobileTimelinesExpanded(false)
   }, [pathname, params])
 
-  return <div className="z-20 sticky top-0 left-0">
+  return <div className="sticky top-0 left-0 z-20">
     <div className="flex items-center justify-center h-20 shadow-lg bg-[var(--primary-background-color)] w-full pr-4">
-      <div className="sm:mr-4 mr-2 ml-8 flex w-full max-w-screen-xl 2xl:mx-4 z-10">
+      <div className="z-10 mr-2 ml-8 flex w-full max-w-screen-xl sm:mr-4 2xl:mx-4">
         <Link className="flex items-center gap-2 text-sm font-extrabold tracking-wide sm:text-lg" href="/">
           {/*<Image src="/Logo.png" alt="Logo" width={50} height={50} className="hidden sm:block" />*/}
           {/*<Image src="/Logo.png" alt="Logo" width={30} height={30} className="block sm:hidden" />*/}
-          <span className="text-ascent sm:text-xl text-lg tracking-wider uppercase">Science For <span className="text-[#094067]">The Bay</span></span>
+          <span className="text-lg uppercase tracking-wider text-ascent sm:text-xl">Science For <span className="text-[#094067]">The Bay</span></span>
         </Link>
         <div className="ml-auto text-primary lg:hidden">
           <Hamburger toggled={hamburgerOpen} toggle={setHamburgerOpen} direction="left" size={28} />
