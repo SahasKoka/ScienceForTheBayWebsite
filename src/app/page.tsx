@@ -99,7 +99,7 @@ export default function Home() {
               <Image src="/ourMissionImage.jpg" alt="Classroom of children" width={300} height={300}  className="rounded-xl shadow-lg shadow-stone-700 lg:hidden"/>
             </div>
             <div className="order-1 md:order-2 flex flex-col md:w-1/2 justify-center">
-              <h1 id="about" className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+              <h1 className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
                 Our Mission
               </h1>
               <p className="mb-6 font-light leading-relaxed lg:text-center text-balance md:text-lg lg:mb-8 lg:text-xl">
@@ -113,7 +113,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-screen-xl flex-col">
           <div className="flex flex-col gap-5 md:flex-row">
             <div className="order-1 md:order-2 flex flex-col md:w-1/2 justify-center">
-              <h1 id="about" className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+              <h1 className="mb-5 lg:max-w-2xl scroll-m-24 lg:text-center text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
                 Our Visison
               </h1>
               <p className="mb-6 font-light leading-relaxed lg:text-center text-balance md:text-lg lg:mb-8 lg:text-xl">
@@ -130,7 +130,7 @@ export default function Home() {
       </section>
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
-          <h1 id="about" className="mb-10 lg:max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
+          <h1 className="mb-10 lg:max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
             Partners
           </h1>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center gap-5">

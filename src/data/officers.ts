@@ -8,7 +8,7 @@ export interface OfficerType {
 export const Officers: OfficerType[] = [
   {
     name: "Sahas Koka",
-    position: "President/CEO",
+    position: "President",
     imageUrl: "/officers/sahasKoka.jpg",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },

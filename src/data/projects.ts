@@ -19,10 +19,5 @@ export const Projects: ProjectType[] = [
     imageUrl: "/rehabAfrica.png",
     title: "Rehab Africa",
     description: "Through our partnership with Rehab Africa, we are initiating an inaugural science program aimed to increase STEM in Liberia. Through hands-on-experiments we are introducing concepts like density and velocity. Ensuring these students have proper access and encouraging them to pursue a career in STEM.",
-  },
-  {
-    imageUrl: "/DUSD1.jpg",
-    title: "Dublin Unified School District",
-    description: "Throughout Dublin Unified School District, volunteers from Dublin High School volunteer at schools in the district, inspiring a curiosity in STEM. The curriculum focuses on experiments and interactive games making learning enjoyable for the students. Through over 60 classes across the school district, the initiative has positively impacted the lives of 120+ students.",
   }
 ];
