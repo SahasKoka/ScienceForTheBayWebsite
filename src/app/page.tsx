@@ -34,7 +34,7 @@ export default function Home() {
   }, {scope: container})
 
   return (
-    <div ref={container} className="relative flex w-full flex-col gap-16">
+    <div ref={container} className="relative flex w-full flex-col gap-16 scroll-m-20">
       {/*<div className="absolute inset-0 -z-10 h-screen w-full">*/}
       {/*  <Image src={"/sftbCover.jpg"} alt={"Hero Image"} layout={"fill"} objectFit={"cover"} className="brightness-75"/>*/}
       {/*</div>*/}

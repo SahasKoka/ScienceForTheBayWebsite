@@ -5,7 +5,7 @@ export default function OfficersPage() {
   // @ts-ignore
   return <>
     { /* image in background takes up full width and fades to black downwards */}
-    <div className="relative w-full">
+    <div className="relative w-full scroll-m-20">
       <div className="absolute w-full h-[500px]">
         <NextImage src="/DUSD1.jpg" alt="cover photo" fill priority className="object-cover brightness-75 object-middle"/>
         <div

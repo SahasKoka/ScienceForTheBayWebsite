@@ -2,7 +2,7 @@
 export default function ProjectPage() {
 
   return (
-    <div className="relative mt-16 flex w-full flex-col gap-16">
+    <div className="relative mt-16 flex w-full flex-col gap-16 scroll-m-24">
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
           <h1 className="mb-5 max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
