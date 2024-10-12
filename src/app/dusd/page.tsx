@@ -26,8 +26,7 @@ export default function OfficersPage() {
                 <p className="mb-6 font-light leading-relaxed text-balance md:text-lg lg:mb-8 lg:text-xl">
                   Throughout Dublin Unified School District, volunteers from Dublin High School volunteer at
                   schools in the district, inspiring a curiosity in STEM. The curriculum focuses on experiments
-                  and interactive games making learning enjoyable for the students. Through over 60 classes across
-                  the school district, the initiative has positively impacted the lives of 120+ students.
+                  and interactive games making learning enjoyable for the students. 
                 </p>
               </div>
             </div>
