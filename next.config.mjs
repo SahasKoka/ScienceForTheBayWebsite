@@ -1,19 +1,15 @@
 import withBundleAnalyzer from "@next/bundle-analyzer";
 import withPlugins from "next-compose-plugins";
 import { env } from "./env.mjs";
-import withMDX from "@next/mdx";
-
-const withMDXConfig = withMDX();
 
 /**
  * @type {import('next').NextConfig}
  */
 const config = withPlugins([
   withBundleAnalyzer({ enabled: env.ANALYZE }),
-  withMDXConfig
 ], {
   reactStrictMode: true,
-  pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
   experimental: { instrumentationHook: true },
   rewrites() {
     return [
