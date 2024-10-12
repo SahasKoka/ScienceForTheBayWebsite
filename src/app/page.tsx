@@ -40,7 +40,7 @@ export default function Home() {
       {/*</div>*/}
 
       <div className="absolute h-screen w-full">
-        <Image src="/sftbCover.jpg" alt="Hero Image" fill className="object-cover object-center brightness-75 md:object-center"/>
+        <Image src="/sftbCover.jpg" alt="Hero Image" priority fill className="object-cover object-center brightness-75 md:object-center"/>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-black/40"/>
       </div>
       <section className="mx-10 flex h-screen flex-col">
