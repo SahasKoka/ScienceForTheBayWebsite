@@ -8,7 +8,7 @@ export default function ProjectPage() {
       <section className="mx-10">
         <div className="mx-auto flex max-w-screen-xl flex-col">
           <h1 className="mb-10 max-w-2xl scroll-m-24 text-3xl font-semibold leading-none tracking-tight text-primary md:text-4xl xl:text-5xl">
-            Projects
+            Our Other Projects
           </h1>
           <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
             {Projects.map((project: ProjectType) => (

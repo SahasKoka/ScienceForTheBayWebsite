@@ -33,8 +33,8 @@ export function NavBar() {
         </div>
         <div  className="hidden justify-center items-center space-x-8 lg:flex ml-auto sm:text-lg text-sm [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
           <Link href="/" className="hover:text-[var(--ascent-color)]">Home</Link>
-          <Link href="/projects" className="hover:text-[var(--ascent-color)]">Projects</Link>
           <Link href="/dusd" className="hover:text-[var(--ascent-color)]">DUSD Program</Link>
+          <Link href="/projects" className="hover:text-[var(--ascent-color)]">Other Projects</Link>
           <Link href="/team" className="hover:text-[var(--ascent-color)]">Our Team</Link>
           <Link href="/join" className="hover:text-[var(--ascent-color)]">Join us</Link>
         </div>
@@ -44,11 +44,11 @@ export function NavBar() {
           <Link href="/" className="flex items-center space-x-2 hover:text-[var(--ascent-color)]">
             <span>Home</span>
           </Link>
-          <Link href="/projects" className="flex items-center space-x-2 hover:text-[var(--ascent-color)]">
-            <span>Projects</span>
-          </Link>
           <Link href="/dusd" className="flex items-center space-x-2 hover:text-[var(--ascent-color)]">
             <span>DUSD Program</span>
+          </Link>
+          <Link href="/projects" className="flex items-center space-x-2 hover:text-[var(--ascent-color)]">
+            <span>Other Projects</span>
           </Link>
           <Link href="/team" className="flex items-center space-x-2 hover:text-[var(--ascent-color)]">
             <span>Our Team</span>

@@ -29,8 +29,8 @@ export function Footer() {
       <div className="flex xl:flex-row sm:flex-col flex-row gap-7 mt-3 [&>*]:font-medium [&>*]:h-min [&>*]:transition-colors [&>*]:duration-500">
         <div className="flex flex-col gap-7 sm:flex-row">
           <Link href="/" className="hover:text-[var(--ascent-color)]">Home</Link>
-          <Link href="/projects" className="hover:text-[var(--ascent-color)]">Projects</Link>
           <Link href="/dusd" className="hover:text-[var(--ascent-color)]">DUSD Program</Link>
+          <Link href="/projects" className="hover:text-[var(--ascent-color)]">Other Projects</Link>
         </div>
         <div className="flex flex-col gap-7 sm:flex-row">
          <Link href="/team" className="hover:text-[var(--ascent-color)]">Our Team</Link>
