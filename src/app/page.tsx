@@ -74,9 +74,9 @@ export default function Home() {
           <div className="flex flex-col gap-5 lg:flex-row">
             <div className="flex flex-col lg:w-1/2">
               <p className="mb-6 font-light leading-relaxed text-balance md:text-lg lg:mb-8 lg:text-xl">
-                Science for the Bay is a <span className="font-extrabold">501c3 non-profit organization</span> where high school students teach elementary school students
-                comprehensive science lessons. The program covers all types of science from biology to chemistry to physics.
-                The high school students engage the elementary school students in interactive activities and experiments to make
+                Science for the Bay is a <span className="font-extrabold">501c3 non-profit organization</span> where high school students teach students
+                with developmental disabilities comprehensive science lessons. The program covers all types of science from biology to chemistry to physics.
+                Volunteers engage the students in interactive activities and experiments to make
                 the learning experience engaging and hands-on. This is a great space to share our passion for science and the
                 impact it can have on young minds. We strive to <span className="font-extrabold">make science education fun and accessible for all students</span>,
                 fostering a love for learning and exploration.
