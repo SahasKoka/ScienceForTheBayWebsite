@@ -9,7 +9,7 @@ export const Officers: OfficerType[] = [
   {
     name: "Sahas Koka",
     position: "President",
-    imageUrl: "/officers/sahasKoka.jpg",
+    imageUrl: "/officers/JonathanJoh.jpg",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
