@@ -39,7 +39,7 @@ export const Officers: OfficerType[] = [
   {
     name: "Vacant",
     position: "Curriculum Coordinator/Social Media Manager",
-    imageUrl: "/officers/oliviaChoe.png",
+    imageUrl: "/officers/Blank Canvas.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
 ];
