@@ -15,25 +15,25 @@ export const Officers: OfficerType[] = [
   {
     name: "Neil ",
     position: "Vice President",
-    imageUrl: "/officers/kevinHam.jpg",
+    imageUrl: "/officers/Neil.PNG",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
     name: "Rishi",
     position: "Treasurer",
-    imageUrl: "/officers/evanValentine.jpg",
+    imageUrl: "/officers/Rishi.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
     name: "Abyan Kashif",
     position: "Volunteer Coordinator",
-    imageUrl: "/officers/roshniRao.jpg",
+    imageUrl: "/officers/Abyan.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
     name: "Cynthia Liin",
     position: "Secretary",
-    imageUrl: "/officers/yajatKulkarni.png",
+    imageUrl: "/officers/Cynthia.JPG",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
