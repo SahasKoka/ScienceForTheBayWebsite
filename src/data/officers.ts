@@ -7,39 +7,39 @@ export interface OfficerType {
 
 export const Officers: OfficerType[] = [
   {
-    name: "Sahas Koka",
+    name: "Jonathan Joh",
     position: "President",
-    imageUrl: "/officers/sahasKoka.jpg",
+    imageUrl: "/officers/JonathanJoh.jpg",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Kevin Ham",
+    name: "Neil ",
     position: "Vice President",
-    imageUrl: "/officers/kevinHam.jpg",
+    imageUrl: "/officers/Neil.PNG",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Evan Valentine",
+    name: "Rishi",
     position: "Treasurer",
-    imageUrl: "/officers/evanValentine.jpg",
+    imageUrl: "/officers/Rishi.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Roshni Rao",
+    name: "Abyan Kashif",
     position: "Volunteer Coordinator",
-    imageUrl: "/officers/roshniRao.jpg",
+    imageUrl: "/officers/Abyan.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Yajat Kulkarni",
+    name: "Cynthia Liin",
     position: "Secretary",
-    imageUrl: "/officers/yajatKulkarni.png",
+    imageUrl: "/officers/Cynthia.JPG",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Olivia Choe",
+    name: "Vacant",
     position: "Curriculum Coordinator/Social Media Manager",
-    imageUrl: "/officers/oliviaChoe.png",
+    imageUrl: "/officers/Blank Canvas.png",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
 ];
