@@ -13,7 +13,7 @@ export const Officers: OfficerType[] = [
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
   },
   {
-    name: "Neil mann",
+    name: "Neil Mann",
     position: "Vice President",
     imageUrl: "/officers/Neil.PNG",
     bio: "This is a placeholder bio where I can talk about myself, my role in the organization, and what I hope to accomplish in the future.",
